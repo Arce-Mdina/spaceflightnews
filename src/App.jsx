@@ -9,6 +9,8 @@ import Reports from "./pages/Reports";
 import ReportDetails from "./pages/ReportDetails";
 import './App.css'
 
+import BackButton from './components/BackButton';
+
 
 const RouterConfig = () => {
   const routes = [
