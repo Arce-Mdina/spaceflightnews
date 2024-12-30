@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { fetchBlog } from "../services/api";
+import { fetchBlogs } from "../services/api";
 
 const Blogs = () => {
   const [blogs, setBlog] = useState([]);
 
   useEffect(() => {
     const loadBlog = async () => {
-      const data = await fetchBlog();
+      const data = await fetchBlogs();
       setBlog(data);
     };
     loadBlog();
