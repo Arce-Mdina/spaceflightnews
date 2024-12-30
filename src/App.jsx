@@ -44,7 +44,6 @@ function App() {
   return (
     <>
       <BrowserRouter basename="/">
-        <ScrollToTop />
         <RouterConfig />
       </BrowserRouter>
     </>
