@@ -9,6 +9,7 @@ import Reports from "./pages/Reports";
 import ReportDetails from "./pages/ReportDetails";
 import './App.css'
 
+
 const RouterConfig = () => {
   const routes = [
     {
